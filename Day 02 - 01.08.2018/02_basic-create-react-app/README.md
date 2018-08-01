@@ -11,6 +11,10 @@ npm i
 ```bash
 npm start
 ```
+* open the browser in http://localhost:3000
+and see this result:
+![picture](screenshot.png)
+
 ## This app contains:
 * public - contains `index.html` and logo
 * src - 
