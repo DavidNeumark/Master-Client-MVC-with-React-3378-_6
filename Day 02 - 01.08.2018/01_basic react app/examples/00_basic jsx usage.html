@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="../build/react.js"></script>
+  <script src="../build/react-dom.js"></script>
+  <script src="../build/browser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="root">test</div>
+
+  <script type="text/babel">
+
+  //jsx = javascript xml
+  //ReactDOM.render - must get only one tag
+    ReactDOM.render(
+      <div title="my title">
+        <h1>Hello, world!</h1>
+        <h1>Hello, world!</h1>
+      </div>,
+      document.getElementById('root')
+    );
+  </script>
+
+</body>
+
+</html>
