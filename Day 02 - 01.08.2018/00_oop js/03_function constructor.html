@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function Dog(color, age) {
+            this.color = color;
+            this.age = age;
+
+            this.getDescription = () => {
+                console.log(`color: ${this.color}, age: ${this.age}`);
+            }
+        }
+
+
+        let dog1 = new Dog("black", 5);
+        console.log(window.color, window.age);  //--> undefined undefined
+        dog1.getDescription();  //--> color: black, age: 5
+
+        let dog2 = new Dog("brown", 7);
+        console.log(window.color, window.age);  //--> undefined undefined
+        dog2.getDescription();  //--> color: brown, age: 7
+
+        let dog3 = Dog("white", 4);
+        console.log(window.color, window.age);  //--> white 4
+        dog3.getDescription();  //--> TypeError: Cannot read property 'getDescription' of undefined
+    </script>
+</head>
+
+<body></body>
+
+</html>
