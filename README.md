@@ -34,7 +34,7 @@ These days, React technology becomes very popular for complex and advanced front
 *	Client MVC roles 
 *	Overview of supporting technologies (AJAX, REST)
 
-### Type Script
+### Type Script +es5 +es6
 *	JavaScript, ECMAScript5 , ECMAScript6 and Type Script
 *	Understanding the JavaScript Closures
 *	Types
